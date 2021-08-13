@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import uuid from 'uuid';
 import { connect } from 'react-redux';
+import uuid from 'uuid';
+
 import { addQuote } from '../actions/quotes';
 
 class QuoteForm extends Component {
